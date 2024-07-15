@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background: white;
+}
+
+.container-cop{
+    background: lightgray;
+}
+
+.link-drop a{
+    text-decoration: none;
+    color: black;
+}
+
+#modal{
+    background: lightgray;
+}
+
+.btn-gray{
+    background: transparent;
+    border: 1px solid lightgray;
+    padding: 0px 10px;
+    transition: .55s ease-in-out;
+}
+
+.btn-gray:hover{
+    background: lightgray;
+    border: 1px solid lightgray;
+}
+
+.icons{
+    color: green;
+    font-size: 30px;
+    margin: 10px;
+    letter-spacing: 25px;
+}
+
+.green {
+    color: white;
+    background: green;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 10px;
+}
+
+@media (max-width: 775px) {
+    .navbar-toggler{
+
+        margin-top: -40px;
+        margin-left: 400px;
+
+    }
+}
